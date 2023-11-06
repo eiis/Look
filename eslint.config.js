@@ -8,4 +8,11 @@ export default antfu(
       // 'no-console': 'off'
     },
   },
+  {
+    // Remember to sperrorlob here, otherwise it might cause the vue plugin to handle non-vue files
+    files: ['**/*.ts'],
+    rules: {
+      'no-console': 'off',
+    },
+  },
 )
